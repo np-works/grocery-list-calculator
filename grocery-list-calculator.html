@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8">
+    <title>Grocery List Calculator </title>
+    <!--Title tab icon-->
+    <link rel = "shortcut icon" 
+            href= "images/rsz_exo-logo.png"
+            type = "image/png">
+    <!--Step1:add this to head for font awesome pictures-->
+    <script src="https://kit.fontawesome.com/23fa105e54.js" 
+            crossorigin="anonymous"></script>
+
+    <!--Adding a CSS style sheet (to head section)-->
+        <link rel = "stylesheet" href= "css/default.css" type="text/css" />
+        <link rel="stylesheet" href="css/styling.css" type="text/css" /> 
+
+    </head>
+    <body>
+        
+        <div class = "calculator-container">
+            <!-- input section -->
+            <section id = "input-section">
+                <h1> Grocery List Calculator</h1>
+                <div class = "inputs">
+                    <label> Item Name <input id = "itemTitle" type = "text" name = "title" placeholder = "e.g. eggs" ></input> </label>
+                    <label class = "amountLabel"> Cost <input id = "itemAmount" type = "number" name="amount" placeholder="$0" ></input> </label>
+                    <input class = "add-btn" type = "button" value="Add"></input>
+                </div>
+            </section>
+            <!-- list section -->
+            <section id = "list-section">
+                <h2>List</h2>
+                <!-- <div class = "list"> -->
+                    <ul class = "list"></ul>
+                        <!-- every entry has a unique id -->
+                        <!-- <li id = '0' class = "inputs">
+                            <div class = "entry">Eggs: $8</div>
+                            <div id = "edit"></div>
+                            <div id = "delete"></div>
+                        </li> -->
+                <!-- </div> -->
+            </section>
+            <!-- Tax section -->
+            <section id = "tax-section">
+                <!-- <div class = "tax-element" class = tax-title>Tax:</div> -->
+                <div class = "tax-element" class = tax-amount>+ CA Sales Tax: 10% </div>
+            </section>
+            <!-- total section-->
+            <section id = "total-section">  <!-- class = balance -->
+                <div class = "total-title">Total</div>
+                <div class = "total-value"></div>
+            </section>
+           <!-- clear all button -->
+            <div> <input class = "clearAll-btn" type = "button" value="Clear All"></input></div>
+        </div>
+        
+    </body>
+    <script type = "text/javascript" src = "js/js.js" ></script> <!-- Javascript needs to appear after the html DOM elements or else your code wont work -->
+</html>

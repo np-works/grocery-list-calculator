@@ -1,0 +1,146 @@
+section{
+    padding:20px;
+}
+
+.calculator-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:400px;
+    display:block;
+    margin: 0 auto;
+}
+
+
+/* inputs section */
+#input-section{
+    background-color: #81870C;
+    color:white;
+    text-align:center;
+}
+h1{
+    text-align:center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+label{
+    display:block;
+    padding-top: 20px;
+}
+.amountLabel{
+    padding-bottom:20px;
+}
+
+
+.add-btn{
+    width: 50%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: #616161;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* list section */
+h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:#81870C;
+}
+
+#list-section{
+    background-color: #f2f3df;
+    }
+
+
+#tax-section{
+    background-color:#c0c389;
+}
+
+.tax-element{
+display:inline-block;
+}
+
+
+/* total section */
+#total-section{
+    background-color: #2F3013;
+    color: white;
+    }
+
+.total-title{
+    font-size:1rem;
+}
+.total-value{
+    font-size:2rem;
+}
+
+/* container for list to allow elements in list to adjust to the container */
+#list-section ul{
+    width: 360px;
+    height: 285px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top:20px;
+    overflow-x: auto;
+}
+
+#list-section ul.list li{
+    position: relative;
+    font-size: 1em;
+}
+
+#list-section ul.list li *{
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#list-section ul.list li .entry{
+    width:250px;
+    height: auto;
+    padding-left: 20px;
+    margin-bottom: 10px;;
+    word-wrap: break-word;
+}
+
+#list-section ul.list li #delete{
+    background-image: url('../imgs/trash-icon2.jpg');
+    position: absolute;
+    width:20px;
+    height: 20px;
+    right: 3px;
+    cursor: pointer;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+#list-section ul.list li #edit{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    right: 33px;
+    cursor: pointer;
+    background-image: url('../imgs/edit-icon.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.clearAll-btn{
+    width: 100%;
+    /* text-align: center; */
+    /* margin: auto 0; */
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #616161;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
