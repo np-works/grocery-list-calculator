@@ -145,9 +145,6 @@ display:inline-block;
     border:none;
 }
 
-input, textarea {
-    -webkit-appearance: none;
-    border-radius: 0;
-  }
-
-
+input[type=submit] {
+    -webkit-border-radius:0px;
+}
