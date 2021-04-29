@@ -145,8 +145,12 @@ display:inline-block;
     border:none;
 }
 
-input, textarea{
-    -webkit-appearance:none;
-    -webkit-border-radius:0px;
-    border-radius:0;
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
 }
