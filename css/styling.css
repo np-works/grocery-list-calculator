@@ -145,7 +145,7 @@ display:inline-block;
     border:none;
 }
 
-input[type="button"] {
+input, textarea{
     -webkit-appearance:none;
     -webkit-border-radius:0px;
     border-radius:0;
