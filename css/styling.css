@@ -139,12 +139,15 @@ display:inline-block;
     padding: .5rem;
     font-size: 1.2rem;
     cursor: pointer;
-    -webkit-appearance: none;
-    border-radius:none;
 }
 
 .btn{
     border:none;
 }
+
+input, textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
 
 
